@@ -1,0 +1,18 @@
+page-activity {
+
+}
+
+.activity{
+    padding: 10px;
+}
+
+.activity-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    &__button{
+        border-radius: 50%;
+        width: 35px;
+    }
+}

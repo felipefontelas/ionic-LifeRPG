@@ -1,3 +1,22 @@
 page-about {
-
+    font-size: 2rem
 }
+
+span{
+    font-weight: lighter;
+}
+
+.about-body{
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+.social-medias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__icon {
+        font-size: 50px;
+    }
+}
+

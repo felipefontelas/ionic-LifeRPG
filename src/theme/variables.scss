@@ -86,3 +86,12 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+$toolbar-md-title-text-color: white;
+$toolbar-ios-title-text-color: white;
+$toolbar-wp-title-text-color: white;
+$toolbar-background: #4a8bfc;
+
+.header-icon{
+    padding: 10px;
+}
