@@ -12,6 +12,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { ActivityFormPage } from '../pages/activity-form/activity-form';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     MapPage,
     ActivityPage,
-    ProgressPage
+    ProgressPage,
+    ActivityFormPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     MapPage,
     ActivityPage,
-    ProgressPage
+    ProgressPage,
+    ActivityFormPage
   ],
   providers: [
     StatusBar,

@@ -1,6 +1,6 @@
-page-home {
+// page-home {
 
-}
+// }
 
 span a{
     font-weight: lighter;
@@ -8,5 +8,17 @@ span a{
 
 a{
     text-decoration: inherit;
+    padding-top: 15px;
+}
+
+.card-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.alarm-button{
+    text-align: center;
     padding-top: 15px;
 }

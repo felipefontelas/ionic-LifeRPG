@@ -16,7 +16,7 @@
 <ion-content>
   <ion-card class="activity">
     <div class="activity-card">
-      <button ion-button class="activity-card__button">
+      <button color="danger" ion-button class="activity-card__button">
         <ion-icon name="add"></ion-icon>
       </button>
       <ion-card-content>
@@ -36,7 +36,7 @@
   </ion-card>
   <ion-card class="activity">
     <div class="activity-card">
-      <button ion-button class="activity-card__button">
+      <button color="secondary" ion-button class="activity-card__button">
         <ion-icon name="add"></ion-icon>
       </button>
       <ion-card-content>
@@ -46,7 +46,7 @@
   </ion-card>
   <ion-card class="activity">
     <div class="activity-card">
-      <button ion-button class="activity-card__button">
+      <button color="light" ion-button class="activity-card__button">
         <ion-icon name="add"></ion-icon>
       </button>
       <ion-card-content>
@@ -56,15 +56,15 @@
   </ion-card>
   <ion-card class="activity">
     <div class="activity-card">
-      <button ion-button class="activity-card__button">
+      <a color="dark" ion-button class="activity-card__button">
         <ion-icon name="add"></ion-icon>
-      </button>
+      </a>
       <ion-card-content>
         Add an optional task!
       </ion-card-content>
     </div>
   </ion-card>
   <ion-fab right bottom>
-    <button ion-fab><ion-icon name="add"></ion-icon></button>
+    <button (click)="mudarPagina()" ion-fab><ion-icon name="add"></ion-icon></button>
   </ion-fab>
 </ion-content>

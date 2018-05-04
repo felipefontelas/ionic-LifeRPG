@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+import { ActivityFormPage } from '../activity-form/activity-form';
+
 /**
  * Generated class for the ActivityPage page.
  *
@@ -14,11 +16,16 @@ import { NavController } from 'ionic-angular';
 })
 export class ActivityPage {
 
+
   constructor(public navCtrl: NavController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ActivityPage');
   }
-
+  
+  
+  mudarPagina(){
+    this.navCtrl.push(ActivityFormPage);
+  }
 }

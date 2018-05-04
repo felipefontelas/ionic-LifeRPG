@@ -1,24 +1,25 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the ProgressPage page.
+ * Generated class for the ActivityFormPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
 
+@IonicPage()
 @Component({
-  selector: 'page-progress',
-  templateUrl: 'progress.html',
+  selector: 'page-activity-form',
+  templateUrl: 'activity-form.html',
 })
-export class ProgressPage {
+export class ActivityFormPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ProgressPage');
+    console.log('ionViewDidLoad ActivityFormPage');
   }
 
 }

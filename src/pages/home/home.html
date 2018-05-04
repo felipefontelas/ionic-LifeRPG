@@ -1,7 +1,8 @@
 <ion-header>
   <ion-navbar text-center>
     <ion-title>
-      <ion-icon name="ios-flame" class="header-icon"></ion-icon>Life<span>RPG</span>
+      <ion-icon name="ios-flame" class="header-icon"></ion-icon>Life
+      <span>RPG</span>
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -17,6 +18,14 @@
       <p>
         Go buy some food. We're out of it, and we need to eat!
       </p>
+      <div class="card-options">
+        <button ion-button outline>Cancel</button>
+        <div class="xp">
+          Exp:
+          <ion-badge item-end>50XP</ion-badge>
+        </div>
+        <button ion-button>Done</button>
+      </div>
     </ion-card-content>
   </ion-card>
   <ion-card>
@@ -28,11 +37,27 @@
       <p>
         We want to be healthy, so we are going jogging and then maybe hit the gym!
       </p>
+      <div class="card-options">
+        <button ion-button outline>Cancel</button>
+        <div class="xp">
+          Exp:
+          <ion-badge item-end>50XP</ion-badge>
+        </div>
+        <button ion-button>Done</button>
+      </div>
     </ion-card-content>
   </ion-card>
   <ion-card>
     <ion-card-content>
       There's a school meeting tomorrow, it's importante for you to show that you care for him!
+      <div class="card-options">
+        <button ion-button outline>Cancel</button>
+        <div class="xp">
+          Exp:
+          <ion-badge item-end>50XP</ion-badge>
+        </div>
+        <button ion-button>Done</button>
+      </div>
     </ion-card-content>
   </ion-card>
   <ion-card>
@@ -46,6 +71,14 @@
         Required task: Grocery Shopping.
         <br /> It was a long day! Treat yo self!
       </p>
+      <div class="card-options">
+        <button ion-button outline>Cancel</button>
+        <div class="xp">
+          Exp:
+          <ion-badge item-end>50XP</ion-badge>
+        </div>
+        <button ion-button>Done</button>
+      </div>
     </ion-card-content>
   </ion-card>
   <ion-card>
@@ -59,11 +92,21 @@
         <br />
       </p>
       <ion-buttons start>
-        <button ion-button outline icon-left>
-          <ion-icon name="alarm"></ion-icon>
-          Set an alarm?
-        </button>
+        <div class="alarm-button">
+          <button ion-button outline icon-left>
+            <ion-icon name="alarm"></ion-icon>
+            Set an alarm?
+          </button>
+        </div>
       </ion-buttons>
+      <div class="card-options">
+        <button ion-button outline>Cancel</button>
+        <div class="xp">
+          Exp:
+          <ion-badge item-end>50XP</ion-badge>
+        </div>
+        <button ion-button>Done</button>
+      </div>
     </ion-card-content>
   </ion-card>
 </ion-content>
